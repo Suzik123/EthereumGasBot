@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image
 import matplotlib.ticker as ticker
-infura_url = 'https://mainnet.infura.io/v3/d6011d3466e84ae19605eb3af98af509'
+infura_url = '<your-api>'
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 
